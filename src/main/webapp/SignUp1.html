@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Signup</title>
+<style>
+	h1{
+		display: block;
+		text-align: center;
+	}
+	.c1{
+            /* height: 400px;
+            width: 450px; */
+		   /* background-color:ghostwhite; */
+		    padding-left: 10px;
+            
+		
+		
+	}
+	button{
+		background-color:violet;
+		border-radius: 1px;
+		
+	}
+	
+	.main{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+        /* height: 400px;
+        width: 800px; */
+        /* border: 1px solid red; */
+	
+		padding-top: 30px;
+        padding-right: 10px;
+         background-color:lightblue; 
+		
+	}
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("sgn.jpg");
+		
+		
+
+    }
+	
+	
+</style>
+</head>
+
+<body >
+	
+	
+     <div class="main">
+        
+		<div class="c1">
+            <h1>SignUp Page for Student</h1>
+            <form action="SignUp" method="post">
+			
+			<table style="color: red;">
+                
+				<tr>
+					<td><label>Student Id:</label></td>
+					<td>
+						<input type="text"  name="id">
+					</td>
+		
+				</tr>
+				<tr>
+					<td><label>FirstName:</label></td>
+					<td>
+						<input type="text" name="fname">
+					</td>
+		
+				</tr>
+			      <tr>
+					<td><label>LastName:</label></td>
+					<td>
+						<input type="text" name="lname">
+					</td>
+		
+				</tr>
+				<tr>
+					<td><label>Branch:</label></td>
+					<td>
+						<input type="text"  name="branch">
+					</td>
+		
+				</tr>
+				
+				<tr>
+					<td><label>Email-Id:</label></td>
+					<td>
+						<input type="text" name="mail">
+					</td>
+		
+				</tr>
+					<tr>
+					<td><label>Password:</label></td>
+					<td>
+						<input type="password" name="pass">
+					</td>
+		
+				</tr>
+				<tr>
+					<td><label>PhoneNumber:</label></td>
+					<td>
+						<input type="number"  name="phn">
+					</td>
+		
+				</tr>
+				<tr>
+					<td><label>Student_Age:</label></td>
+					<td>
+						<input type="number"  name="age">
+					</td>
+		
+				</tr>
+				<tr >
+					<td><label>Gender</label>
+					</td>
+					<td style="color:black"><input type="radio" id="gen" name="gender" value="M">
+						  <label for="gen">Male</label>
+						  <input type="radio" id="gen" name="gender" value="F">
+						  <label for="gen">Female</label> </td>
+		
+				</tr>
+				<tr>
+					<td><label>Address:</label></td>
+					<td>
+						<input type="text"  name="addr">
+					</td>
+		
+				</tr>
+				<tr>
+					<td></td>
+					<td>
+						<button >sign-up</button>
+					</td>
+		
+				</tr>
+			</table>
+        </form>	
+        <p>Already have an  account<br> click here to login<a href="login.html">login</a></p>
+		</div>
+        
+
+    <div>
+        <img  style="height:200px" src="rgt.jpg">
+    </div>
+</div>
+
+</body>
+</html>

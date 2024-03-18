@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <!-- Include Font Awesome CSS -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+    
+    .img{
+        display:grid; 
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 20px;
+
+        
+    }
+.login{
+    display:grid;
+    align-items:center;
+    justify-content:center;
+    width: 400px;
+    height: 310px;
+    color: red;
+   
+ 
+
+} 
+.impt{
+  
+    display: grid;
+    align-items:center;
+    justify-content:center;
+    padding-bottom: 10px;
+}
+body{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url("log1.jpg");
+
+}
+</style>
+</head>
+<body>
+ <form action="Login" method="post">
+    <div class="login">
+     <h1>Login to your account</h1>
+    
+   <div class="img"><img style="height: 80px;" src="log.png"></div>
+      
+<div class="impt">
+    <i class="fas fa-user"> <input  type="text"  placeholder="username" name="user"></i>
+    <br>
+            <i class="fas fa-lock"> <input type="text" placeholder="password" name="pass">></i>
+            <br>
+            <input style="width: 50px; color: chocolate;" type="submit" value="login">
+</div> 
+           
+            
+    
+      
+
+    
+</div>
+ </form>
+   
+</body>
+</html>
